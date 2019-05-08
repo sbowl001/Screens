@@ -12,6 +12,8 @@
 		A350F19922826DFB00335CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350F19722826DFB00335CB1 /* Main.storyboard */; };
 		A350F19B22826DFC00335CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A350F19A22826DFC00335CB1 /* Assets.xcassets */; };
 		A350F19E22826DFC00335CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350F19C22826DFC00335CB1 /* LaunchScreen.storyboard */; };
+		A350F1A622827AD000335CB1 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350F1A522827AD000335CB1 /* NumberedViewController.swift */; };
+		A350F1A82282812D00335CB1 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350F1A72282812D00335CB1 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A350F19A22826DFC00335CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A350F19D22826DFC00335CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A350F19F22826DFC00335CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A350F1A522827AD000335CB1 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		A350F1A72282812D00335CB1 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				A350F19322826DFB00335CB1 /* AppDelegate.swift */,
 				A350F19522826DFB00335CB1 /* ViewController.swift */,
 				A350F19722826DFB00335CB1 /* Main.storyboard */,
+				A350F1A72282812D00335CB1 /* RedViewController.swift */,
+				A350F1A522827AD000335CB1 /* NumberedViewController.swift */,
 				A350F19A22826DFC00335CB1 /* Assets.xcassets */,
 				A350F19C22826DFC00335CB1 /* LaunchScreen.storyboard */,
 				A350F19F22826DFC00335CB1 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A350F1A82282812D00335CB1 /* RedViewController.swift in Sources */,
 				A350F19622826DFB00335CB1 /* ViewController.swift in Sources */,
+				A350F1A622827AD000335CB1 /* NumberedViewController.swift in Sources */,
 				A350F19422826DFB00335CB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

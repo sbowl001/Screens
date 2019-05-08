@@ -51,7 +51,7 @@
         <!--Red-->
         <scene sceneID="llp-1U-sSC">
             <objects>
-                <viewController id="v4j-Iq-6Fp" sceneMemberID="viewController">
+                <viewController id="v4j-Iq-6Fp" customClass="RedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jkj-JY-pqx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,10 +70,55 @@
             </objects>
             <point key="canvasLocation" x="612" y="-720.08995502248877"/>
         </scene>
+        <!--Blue-->
+        <scene sceneID="f3e-hs-GbH">
+            <objects>
+                <viewController id="DEN-2Q-io8" customClass="NumberedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pfl-ta-6wL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VHc-Bx-OXF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue" id="97M-7U-pCK">
+                        <barButtonItem key="rightBarButtonItem" title="Yellow" id="Z4l-DI-Y0j">
+                            <connections>
+                                <segue destination="ewr-yx-epb" kind="show" id="mV7-j3-7ES"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="llI-F3-3In" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1399" y="-1377"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="L6U-dR-R9g">
+            <objects>
+                <viewController id="ewr-yx-epb" customClass="NumberedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kk6-PU-Wbi" customClass="Red">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.98428126103324498" green="1" blue="0.41427653806590814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Bs4-IA-Fgo"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow" id="i0h-kv-Fat">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="9xb-dX-09r">
+                            <connections>
+                                <segue destination="6ao-CZ-OL3" kind="unwind" unwindAction="unwindSegue:" id="9SQ-r6-jAk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3A-e8-P70" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6ao-CZ-OL3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2158" y="-1385"/>
+        </scene>
         <!--Green-->
         <scene sceneID="RUD-1C-hIg">
             <objects>
-                <viewController id="6bH-9r-xH7" sceneMemberID="viewController">
+                <viewController id="6bH-9r-xH7" customClass="NumberedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WtC-Mp-fiv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,11 +126,18 @@
                         <viewLayoutGuide key="safeArea" id="YO0-xq-J9o"/>
                     </view>
                     <navigationItem key="navigationItem" title="Green" id="gB9-hf-LUA">
-                        <barButtonItem key="rightBarButtonItem" title="Purple" id="wbr-fK-9Bm">
-                            <connections>
-                                <segue destination="4VJ-Ch-QtL" kind="show" id="DXb-k8-EAj"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Blue" id="xYR-XS-fUP">
+                                <connections>
+                                    <segue destination="DEN-2Q-io8" kind="show" id="n3c-kW-xka"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Purple" id="wbr-fK-9Bm">
+                                <connections>
+                                    <segue destination="4VJ-Ch-QtL" kind="show" id="DXb-k8-EAj"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kVf-ye-WzI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -95,7 +147,7 @@
         <!--Purple-->
         <scene sceneID="pmW-Ho-VCi">
             <objects>
-                <viewController id="4VJ-Ch-QtL" sceneMemberID="viewController">
+                <viewController id="4VJ-Ch-QtL" customClass="NumberedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u6Y-ak-94p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,7 +169,7 @@
         <!--Orange-->
         <scene sceneID="odJ-pI-qK7">
             <objects>
-                <viewController id="0C2-pl-yHO" sceneMemberID="viewController">
+                <viewController id="0C2-pl-yHO" customClass="NumberedViewController" customModule="screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dhx-OC-Yll">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +177,11 @@
                         <viewLayoutGuide key="safeArea" id="ee1-Fz-sw5"/>
                     </view>
                     <navigationItem key="navigationItem" title="Orange" id="RYJ-NP-P4p">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="I1n-nI-gLt"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="I1n-nI-gLt">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="0C2-pl-yHO" id="EGB-8V-XwR"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qzf-8M-mCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
