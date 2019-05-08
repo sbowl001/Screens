@@ -14,6 +14,8 @@
 		A350F19E22826DFC00335CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350F19C22826DFC00335CB1 /* LaunchScreen.storyboard */; };
 		A350F1A622827AD000335CB1 /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350F1A522827AD000335CB1 /* NumberedViewController.swift */; };
 		A350F1A82282812D00335CB1 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A350F1A72282812D00335CB1 /* RedViewController.swift */; };
+		A350F1AB228284B300335CB1 /* Simple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350F1A9228284B300335CB1 /* Simple.storyboard */; };
+		A350F1B22282862500335CB1 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A350F1B02282862500335CB1 /* History.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A350F19F22826DFC00335CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A350F1A522827AD000335CB1 /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
 		A350F1A72282812D00335CB1 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		A350F1AA228284B300335CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = screens/Base.lproj/Simple.storyboard; sourceTree = "<group>"; };
+		A350F1B12282862500335CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = screens/Base.lproj/History.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				A350F19322826DFB00335CB1 /* AppDelegate.swift */,
 				A350F19522826DFB00335CB1 /* ViewController.swift */,
+				A350F1B02282862500335CB1 /* History.storyboard */,
+				A350F1A9228284B300335CB1 /* Simple.storyboard */,
 				A350F19722826DFB00335CB1 /* Main.storyboard */,
 				A350F1A72282812D00335CB1 /* RedViewController.swift */,
 				A350F1A522827AD000335CB1 /* NumberedViewController.swift */,
@@ -130,6 +136,8 @@
 			files = (
 				A350F19E22826DFC00335CB1 /* LaunchScreen.storyboard in Resources */,
 				A350F19B22826DFC00335CB1 /* Assets.xcassets in Resources */,
+				A350F1AB228284B300335CB1 /* Simple.storyboard in Resources */,
+				A350F1B22282862500335CB1 /* History.storyboard in Resources */,
 				A350F19922826DFB00335CB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +173,22 @@
 				A350F19D22826DFC00335CB1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A350F1A9228284B300335CB1 /* Simple.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A350F1AA228284B300335CB1 /* Base */,
+			);
+			name = Simple.storyboard;
+			sourceTree = "<group>";
+		};
+		A350F1B02282862500335CB1 /* History.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A350F1B12282862500335CB1 /* Base */,
+			);
+			name = History.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
